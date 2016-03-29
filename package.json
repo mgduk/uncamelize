@@ -1,0 +1,19 @@
+{
+  "name": "uncamelize",
+  "version": "1.0.0",
+  "description": "Converts a camelCase string into a space-separated one",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgduk/uncamelize.git"
+  },
+  "author": "Matt Dolan <matt@dolan.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgduk/uncamelize/issues"
+  },
+  "homepage": "https://github.com/mgduk/uncamelize#readme"
+}
