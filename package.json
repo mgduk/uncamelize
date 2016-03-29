@@ -1,6 +1,6 @@
 {
   "name": "uncamelize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts a camelCase string into a space-separated one",
   "main": "index.coffee",
   "scripts": {
