@@ -1,6 +1,5 @@
 chai = require 'chai'
 expect = chai.expect
-sinon = require 'sinon'
 uncamelize = require '..'
 
 describe 'uncamelize', ->
