@@ -1,6 +1,6 @@
 {
   "name": "uncamelize",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Converts a camelCase string into a space separated one",
   "main": "lib/uncamelize.js",
   "scripts": {
@@ -13,7 +13,18 @@
   },
   "author": "Matt Dolan <matt@dolan.me>",
   "license": "MIT",
-  "keywords": ["camel", "camel case", "camelcase", "uncamel", "decamel", "decamelize", "depascalize", "depascal", "pascalcase", "pascal case"],
+  "keywords": [
+    "camel",
+    "camel case",
+    "camelcase",
+    "uncamel",
+    "decamel",
+    "decamelize",
+    "depascalize",
+    "depascal",
+    "pascalcase",
+    "pascal case"
+  ],
   "bugs": {
     "url": "https://github.com/mgduk/uncamelize/issues"
   },
