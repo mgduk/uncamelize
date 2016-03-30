@@ -13,6 +13,7 @@
   },
   "author": "Matt Dolan <matt@dolan.me>",
   "license": "MIT",
+  "keywords": ["camel", "camel case", "camelcase", "uncamel", "decamel", "decamelize", "depascalize", "depascal", "pascalcase", "pascal case"],
   "bugs": {
     "url": "https://github.com/mgduk/uncamelize/issues"
   },
