@@ -1,6 +1,6 @@
 {
   "name": "uncamelize",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Converts a camelCase string into a space separated one",
   "main": "lib/uncamelize.js",
   "scripts": {
