@@ -1,6 +1,6 @@
 chai = require 'chai'
 expect = chai.expect
-uncamelize = require '..'
+uncamelize = require '../src/uncamelize'
 
 describe 'uncamelize', ->
     it 'doesn\'t change "foobar"', -> expect(uncamelize('foobar')).to.equal 'foobar'
