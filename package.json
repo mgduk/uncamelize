@@ -1,4 +1,8 @@
 {
+  "author": {
+    "name": "Matt Dolan",
+    "email": "matt@dolan.me"
+  },
   "name": "uncamelize",
   "version": "1.0.6",
   "description": "Converts a camelCase string into a space separated one",
@@ -11,7 +15,6 @@
     "type": "git",
     "url": "git+https://github.com/mgduk/uncamelize.git"
   },
-  "author": "Matt Dolan <matt@dolan.me>",
   "license": "MIT",
   "keywords": [
     "camel",
