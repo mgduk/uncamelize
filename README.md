@@ -10,6 +10,42 @@ uncamelize('fooBarBaz')
 // => "foo Bar Baz"
 ```
 
+`uncamelize` corrects the capitalization of special cases, such as initialisms and camelcased names:
+```
+uncamelize('httpGitHubUrls')
+// => 'HTTP GitHub URLs'
+// (whereas naturally this would become 'http Git Hub Urls')
+```
+
+You can pass special case words of your own.
+```
+// calling uncamelize directly with a string
+uncamelize = require('uncamelize')
+uncamelize('fooBarBaz')
+// => 'foo Bar Baz'
+
+// calling uncamelize with a hashmap of options to override the default
+uncamelize = require('uncamelize')({specialCases: 'FOO WhyNot'})
+uncamelize('fooBarWhyNotBaz')
+// => 'FOO Bar WhyNot Baz'
+
+// `specialCases` can be a space separated string or an array:
+uncamelize = require('uncamelize')({specialCases: ['FOO', 'WhyNot']})
+uncamelize('fooBarWhyNotBaz')
+// => 'FOO Bar WhyNot Baz'
+```
+
+By default `specialCases` you provide override the default. You can alternatively merge them:
+```
+uncamelize = require('uncamelize')({specialCases: 'NASA'})
+uncamelize('nasaGitHubUrl')
+// => 'NASA Git Hub Url'
+
+uncamelize = require('uncamelize')({specialCases: 'NASA', merge: 'specialCases'})
+uncamelize('nasaGitHubUrl')
+// => 'NASA GitHub URL'
+```
+
 Tests
 -----
 ```

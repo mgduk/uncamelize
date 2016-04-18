@@ -37,5 +37,8 @@
     "coffee-script": "^1.10.0",
     "expect": "^1.16.0",
     "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "lodash.isplainobject": "^4.0.4"
   }
 }
